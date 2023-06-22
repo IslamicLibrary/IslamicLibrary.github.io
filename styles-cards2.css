@@ -1,9 +1,4 @@
-/* CSS for the website */
-@property --rotate {
-  syntax: "<angle>";
-  initial-value: 132deg;
-  inherits: false;
-}
+
 
 :root {
   --card-height: 65vh;
@@ -197,7 +192,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   z-index: -1;
   top: -1%;
   left: -2%;
-  animation: spin 2.5s linear infinite;
+  animation: spin 500s linear infinite;
 }
 
 .card::after {
@@ -220,7 +215,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   );
   opacity: 1;
   transition: opacity 0.5s;
-  animation: spin 2.5s linear infinite;
+  animation: spin 500s linear infinite;
 }
 
 @keyframes spin {
