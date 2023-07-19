@@ -112,12 +112,12 @@ footer {
 }
 
 .item:nth-child(3) {
-  background-image: url("images/random/davidwood.png");
+  background-image: url("images/random2/davidwood.png");
   background-position: 52% 8%;
 }
 
 .item:nth-child(4) {
-  background-image: url("images/random/madhabs.png");
+  background-image: url("images/random2/madhabs.png");
   background-position: 45% 8%;
 }
 
