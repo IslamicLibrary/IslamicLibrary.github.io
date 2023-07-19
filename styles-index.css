@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #282C34;
+  background-color: #fff;
   color: #fff;
   max-width: 100%;
 
@@ -157,7 +157,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(235 237 244 / 70%);
+  background: rgb(235 237 244 / 60%);
   width: var(--card-width);
   height: var(--card-height);
   padding: 4px;
@@ -186,7 +186,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
 }
 
 .card:hover {
-  opacity: background 100%;
+  opacity: 0.7;
   transition: 2s;
   border: 1px solid white;
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
@@ -211,12 +211,53 @@ a {
     --card-height: 24vh;
     --card-width: 35vh;
   }
-  .custom-btn {
-    width: 90px;
-    height: 40px;
-    align-self: center;
-    align-items: center;
-    align-content: center;
-    font-size: 14px;
-  }
+}
+.card1{
+  background-image: url("images/backgrounds/card1.png");
+
+}
+.card2{
+  background-image: url("images/backgrounds/card2.png");
+
+}
+.card3{
+  background-image: url("images/backgrounds/card3.png");
+
+}
+.card4{
+  background-image: url("images/backgrounds/card4.png");
+
+}
+.card5{
+  background-image: url("images/backgrounds/card5.png");
+
+}
+.card6{
+  background-image: url("images/backgrounds/card6.png");
+
+}
+.card7{
+  background-image: url("images/backgrounds/card7.png");
+
+}
+.card8{
+  background-image: url("images/backgrounds/card8.png");
+
+}
+.card9{
+  background-image: url("images/backgrounds/card9.png");
+
+}
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9{
+  background-position: center;
+}
+@media screen and (max-width: 768px) {
+.custom-btn {
+  width: 90px;
+  height: 40px;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  font-size: 14px;
+}
 }

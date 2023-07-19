@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,400");
-
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
 * {
   box-sizing: border-box;
 }
@@ -279,4 +284,14 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
 }
 .btn-7 span:hover:after {
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+.custom-btn {
+  width: 90px;
+  height: 40px;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  font-size: 14px;
+}
 }

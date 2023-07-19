@@ -1,8 +1,8 @@
 
 
 :root {
-  --card-height: 65vh;
-  --card-width: calc(var(--card-height) / 1.5);
+  --card-height: 75vh;
+  --card-width: calc(var(--card-height) / 1.0);
 }
 body {
   display: flex;
@@ -11,8 +11,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #282C34;
+  background-image: url("images/backgrounds/Startpage-3.png");
   color: #fff;
+  background-color: fff;
 }
 .start-page{
   background-image: url("images/backgrounds/Startpage-2.png");
@@ -131,116 +132,82 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
 .btn-7 span:hover:after {
   width: 100%;
 }
-#force-scroll{
-  margin-bottom: 1200px;
-  text-align: right;
-}
 .card-link{
   display: flex;
   justify-content: center;
-  width: 31%;
+  width: 30%;
   align-items: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(235 237 244 / 60%);
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 4px;
+  position: relative;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.8em;
+  cursor: pointer;
+  margin: 4.2%;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid white;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  color: orange;
+  text-stroke: 1px black;
+  -webkit-text-stroke: 1px black; /* For better browser compatibility */
+  text-shadow: 0 0 10px purple;
+  text-transform: uppercase;
+  flex-direction: column;
+}
+
+.card .text {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.card:hover {
+  opacity: 0.7;
+  transition: 2s;
+  border: 1px solid white;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
+}
+a {
+  text-decoration: none;
 }
 .card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #191c29;
-  width: var(--card-width);
-  height: var(--card-height);
-  padding: 3px;
-  position: relative;
-  border-radius: 6px;
-  text-align: center;
-  font-size: 1.5em;
-  color: white;
-  cursor: pointer;
-  margin: 4.2%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card:hover {
-  color: rgb(249 80 2 / 100%);
-  transition: color 1s;
-}
-
-.card:hover:before,
-.card:hover:after {
-  animation: none;
-  opacity: 0;
-}
-
-.card::before {
-  content: "";
-  width: 104%;
-  height: 102%;
-  border-radius: 8px;
-  background-image: linear-gradient(
-    var(--rotate),
-    #F95002,
-    #FF9D14 43%,
-    #4e00c2
-  );
-  position: absolute;
-  z-index: -1;
-  top: -1%;
-  left: -2%;
-  animation: spin 500s linear infinite;
-}
-
-.card::after {
-  position: absolute;
-  content: "";
-  top: calc(var(--card-height) / 6);
-  left: 0;
-  right: 0;
-  z-index: -1;
-  height: 100%;
+  flex-wrap: wrap;
+  gap: 4.2%;
   width: 100%;
-  margin: 0 auto;
-  transform: scale(0.8);
-  filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(
-    var(--rotate),
-    #F95002,
-    #FF9D14 43%,
-    #4e00c2
-  );
-  opacity: 1;
-  transition: opacity 0.5s;
-  animation: spin 500s linear infinite;
 }
-
-@keyframes spin {
-  0% {
-    --rotate: 0deg;
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
   }
-  100% {
-    --rotate: 360deg;
+  .card{
+    font-size: 14px;
+    color: black;
+    text-stroke: 0px black;
+    -webkit-text-stroke: 0px black; /* For better browser compatibility */
+    text-shadow: 0 0 0px purple;
   }
+  :root {
+    --card-height: 24vh;
+    --card-width: 35vh;
+  }
+  .custom-btn {
+    width: 90px;
+    height: 40px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
 }
-.card1{
-  background-image: url("images/backgrounds/card1.png");;
-}
-.card2{
-  background-image: url("images/backgrounds/card2.png");;
-}
-.card3{
-  background-image: url("images/backgrounds/card3.png");;
-}
-.card4{
-  background-image: url("images/backgrounds/card4.png");;
-}
-.card5{
-  background-image: url("images/backgrounds/card5.png");;
-}
-.card6{
-  background-image: url("images/backgrounds/card6.png");;
 }
