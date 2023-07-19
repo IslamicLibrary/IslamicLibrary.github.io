@@ -251,7 +251,7 @@ a {
 .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9{
   background-position: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 .custom-btn {
   width: 90px;
   height: 40px;

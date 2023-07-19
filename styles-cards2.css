@@ -1,8 +1,6 @@
-
-
 :root {
-  --card-height: 75vh;
-  --card-width: calc(var(--card-height) / 1.0);
+  --card-height: 50vh;
+  --card-width: 25vh; /* Adjusted width for two containers per row */
 }
 body {
   display: flex;
@@ -43,6 +41,10 @@ nav ul li a {
 }
 
 main {
+  display: flex;
+  flex-wrap: wrap; /* Allow containers to wrap to the next row */
+  justify-content: center; /* Center the containers horizontally */
+  align-items: flex-start; /* Align containers to the top */
   padding: 20px;
 }
 
@@ -132,10 +134,10 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
 .btn-7 span:hover:after {
   width: 100%;
 }
-.card-link{
+.card-link {
   display: flex;
   justify-content: center;
-  width: 30%;
+  width: 30%; /* Adjusted width for two containers per row */
   align-items: center;
 }
 .card {
@@ -149,9 +151,9 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   position: relative;
   border-radius: 6px;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.6em;
   cursor: pointer;
-  margin: 4.2%;
+  margin: 2%; /* Adjusted margin for two containers per row */
   font-weight: bold;
   background-repeat: no-repeat;
   background-size: cover;
@@ -160,7 +162,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   font-weight: bold;
   color: orange;
   text-stroke: 1px black;
-  -webkit-text-stroke: 1px black; /* For better browser compatibility */
+  -webkit-text-stroke: 1px black;
   text-shadow: 0 0 10px purple;
   text-transform: uppercase;
   flex-direction: column;
@@ -180,15 +182,16 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
 a {
   text-decoration: none;
 }
+
 .card-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 4.2%;
-  width: 100%;
+  gap: 2%; /* Adjusted gap for two containers per row */
+  width: 48%; /* Adjusted width for two containers per row */
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   body {
     font-size: 14px;
   }
