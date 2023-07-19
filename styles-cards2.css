@@ -197,6 +197,7 @@ a {
   }
   .card{
     font-size: 14px;
+    font-weight: normal;
     color: black;
     text-stroke: 0px black;
     -webkit-text-stroke: 0px black; /* For better browser compatibility */
@@ -212,5 +213,13 @@ a {
     align-self: center;
     align-items: center;
     align-content: center;
-}
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2%; /* Adjusted gap for two containers per row */
+    width: 96%; /* Adjusted width for two containers per row */
+  }
 }
