@@ -32,7 +32,7 @@ img {
   height: auto;
 }
 .start-page{
-  background-image: url("images/backgrounds/Startpage.png");
+  background-image: url("../images/backgrounds/Startpage.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -203,7 +203,7 @@ a {
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   body {
     font-size: 14px;
   }
@@ -213,39 +213,39 @@ a {
   }
 }
 .card1{
-  background-image: url("images/backgrounds/card1.png");
+  background-image: url("../images/backgrounds/card1.png");
 
 }
 .card2{
-  background-image: url("images/backgrounds/card2.png");
+  background-image: url("../images/backgrounds/card2.png");
 
 }
 .card3{
-  background-image: url("images/backgrounds/card3.png");
+  background-image: url("../images/backgrounds/card3.png");
 
 }
 .card4{
-  background-image: url("images/backgrounds/card4.png");
+  background-image: url("../images/backgrounds/card4.png");
 
 }
 .card5{
-  background-image: url("images/backgrounds/card5.png");
+  background-image: url("../images/backgrounds/card5.png");
 
 }
 .card6{
-  background-image: url("images/backgrounds/card6.png");
+  background-image: url("../images/backgrounds/card6.png");
 
 }
 .card7{
-  background-image: url("images/backgrounds/card7.png");
+  background-image: url("../images/backgrounds/card7.png");
 
 }
 .card8{
-  background-image: url("images/backgrounds/card8.png");
+  background-image: url("../images/backgrounds/card8.png");
 
 }
 .card9{
-  background-image: url("images/backgrounds/card9.png");
+  background-image: url("../images/backgrounds/card9.png");
 
 }
 .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9{
