@@ -248,7 +248,19 @@ a {
   background-image: url("../images/backgrounds/card9.png");
 
 }
-.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9{
+.carda{
+  background-image: url("../images/backgrounds/carda.png");
+
+}
+.cardb{
+  background-image: url("../images/backgrounds/cardb.png");
+
+}
+.cardc{
+  background-image: url("../images/backgrounds/cardc.png");
+
+}
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .carda, .cardb, .cardc{
   background-position: center;
 }
 @media screen and (max-width: 1200px) {
