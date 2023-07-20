@@ -7,7 +7,7 @@ a{
 }
 body {
   white-space: normal;
-  font-size: 20px;
+  font-size: 22px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -159,7 +159,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
   position: relative;
   border-radius: 6px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.7em;
   cursor: pointer;
   margin: 4.2%;
   background-repeat: no-repeat;
@@ -200,7 +200,7 @@ a {
 
 @media screen and (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
   }
   :root {
     --card-height: 24vh;
@@ -212,6 +212,6 @@ a {
     align-self: center;
     align-items: center;
     align-content: center;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
