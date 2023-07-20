@@ -185,7 +185,8 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2%; /* Adjusted gap for two containers per row */
+  margin-top: 1.5%;
+  gap: 3.1%; /* Adjusted gap for two containers per row */
   width: 48%; /* Adjusted width for two containers per row */
 }
 @media screen and (max-width: 1200px) {
