@@ -190,10 +190,10 @@ a {
 }
 @media screen and (max-width: 1200px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
   }
   .card{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     color: black;
     text-stroke: 0px black;
