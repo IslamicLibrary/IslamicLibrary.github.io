@@ -56,12 +56,14 @@ nav ul li a {
 main {
   padding: 20px;
   white-space: normal;
+  flex: 1 0 auto;
 }
 
 footer {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0));
   color: #fff;
   padding: 20px;
+  flex-shrink: 0;
 }
 .custom-btn {
   width: 130px;

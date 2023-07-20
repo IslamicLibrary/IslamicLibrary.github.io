@@ -41,12 +41,14 @@ main {
   justify-content: center; /* Center the containers horizontally */
   align-items: flex-start; /* Align containers to the top */
   padding: 20px;
+  flex: 1 0 auto;
 }
 
 footer {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0));
   color: #fff;
   padding: 20px;
+  flex-shrink: 0;
 }
 .custom-btn {
   width: 130px;
