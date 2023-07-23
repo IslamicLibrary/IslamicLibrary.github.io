@@ -189,6 +189,10 @@ a {
   gap: 3.1%; /* Adjusted gap for two containers per row */
   width: 48%; /* Adjusted width for two containers per row */
 }
+.cardlibrary{
+  color: #4B91C5;
+  text-shadow: 0 0 5px blue;
+}
 @media screen and (max-width: 1200px) {
   body {
     font-size: 18px;
@@ -219,5 +223,8 @@ a {
     flex-wrap: wrap;
     gap: 2%; /* Adjusted gap for two containers per row */
     width: 96%; /* Adjusted width for two containers per row */
+  }
+  .cardlibrary{
+    color: #4B91C5;
   }
 }
