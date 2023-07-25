@@ -225,6 +225,8 @@ a {
     width: 96%; /* Adjusted width for two containers per row */
   }
   .cardlibrary{
-    color: #4B91C5;
+    color: #1B6195;
+    text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.5px black; /* For better browser compatibility */
   }
 }
