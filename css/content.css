@@ -203,6 +203,14 @@ a {
   text-indent: 0; /* Removes any text indentation */
   white-space: pre-line; /* Resets white-space property to default, removing any extra spaces */
 }
+@media screen and (min-width: 1200px) {
+  .text{
+    background-color: #20242C;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   body {
     font-size: 20px;
