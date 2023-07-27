@@ -204,6 +204,7 @@ a {
     text-stroke: 0px black;
     -webkit-text-stroke: 0px black; /* For better browser compatibility */
     text-shadow: 0 0 0px purple;
+    font-weight: bold;
   }
   :root {
     --card-height: 24vh;
@@ -225,7 +226,8 @@ a {
     width: 96%; /* Adjusted width for two containers per row */
   }
   .cardlibrary{
-    color: #1B6195;
+    font-weight: bold;
+    color: #1681a5;
     text-stroke: 0.5px black;
     -webkit-text-stroke: 0.5px black; /* For better browser compatibility */
   }
