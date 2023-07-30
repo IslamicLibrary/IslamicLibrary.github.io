@@ -206,7 +206,7 @@ a {
 
 @media screen and (max-width: 1200px) {
   .card {
-    font-size: 22px;
+    font-size: 24px;
   }
   :root {
     --card-height: 24vh;
@@ -266,11 +266,11 @@ a {
 }
 @media screen and (max-width: 1200px) {
 .custom-btn {
-  width: 90px;
-  height: 40px;
+  width: 120px;
+  height: 45px;
   align-self: center;
   align-items: center;
   align-content: center;
-  font-size: 16px;
-}
+  font-size: 24px;
+  }
 }
