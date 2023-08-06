@@ -44,19 +44,34 @@ header {
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    align-items: center;
 }
 
 nav ul li {
-  display: inline;
-  margin-right: 10px;
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last li to prevent extra space */
 }
 
 nav ul li a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    nav ul li {
+        display: block; /* Display each item on a new line */
+        margin-right: 5px; /* Reset margin for new line display */
+        margin-bottom: 5px; /* Add some spacing between items */
+    }
 }
 
 main {
@@ -273,4 +288,56 @@ a {
   align-content: center;
   font-size: 24px;
   }
+}
+
+#search-form {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Make the input fill out the width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+
+}
+
+#search-input {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 18px;
+  width: 40vw;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+
+}
+
+#search-input::placeholder {
+    color: #ccc;
+}
+
+
+#search-results {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #333;
+}
+
+#search-results ul {
+    list-style: none;
+    padding: 0;
+}
+
+#search-results li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    border-bottom: 1px solid #ccc; /* Add a border at the bottom of each li element */
+
+}
+
+#search-results li:before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: #3498db;
 }

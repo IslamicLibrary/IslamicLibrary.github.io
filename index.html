@@ -7,6 +7,8 @@
 </head>
 
 <body class="start-page">
+
+
   <header>
     <h1>Version 0.1a (beta) <a href="https://discord.gg/ghN7TKm4Ws">JOIN OUR DISCORD</a></h1>
     <nav>
@@ -14,17 +16,20 @@
         <li><a href="index.html"><button class="custom-btn btn-7"><span>Home</span></button></a></li>
         <li><a href="pages/about.html"><button class="custom-btn btn-7"><span>About</span></button></a></li>
         <li><a href="pages/contact.html"><button class="custom-btn btn-7"><span>Contact</span></button></a></li>
-<li><a href="pages/shop.html"><button class="custom-btn btn-7"><span>Shop</span></button></a></li>
-this search bar is WORK IN PROGRESS
-<script async src="https://cse.google.com/cse.js?cx=10042fa9fdcd4470f">
-</script>
-<div class="gcse-search"></div>
+        <li><a href="pages/shop.html"><button class="custom-btn btn-7"><span>Shop</span></button></a></li>
+        <li>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="World's WORST searchbar...">
+                <button type="submit" class="custom-btn btn-7">Search</button>
+            </form>
+        </li>
       </ul>
     </nav>
   </header>
 
   <main>
 
+      <div id="search-results"></div>
 
     <h6 id="force-scroll">scroll down :)</h6>
 
@@ -80,6 +85,8 @@ this search bar is WORK IN PROGRESS
   <footer>
     <p>&copy; 2023 My Website. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
