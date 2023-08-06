@@ -38,7 +38,7 @@ nav ul li a {
 main {
   display: flex;
   flex-wrap: wrap; /* Allow containers to wrap to the next row */
-  justify-content: center; /* Center the containers horizontally */
+  justify-content: left; /* Center the containers horizontally */
   align-items: flex-start; /* Align containers to the top */
   padding: 20px;
   flex: 1 0 auto;
@@ -133,14 +133,14 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
 }
 .card-link {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   width: 30%; /* Adjusted width for two containers per row */
-  align-items: center;
+  align-items: left;
 }
 .card {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: left !important;
   background: rgb(235 237 244 / 60%);
   width: var(--card-width);
   height: var(--card-height);
@@ -182,10 +182,11 @@ a {
 
 .card-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left !important;
+  align-items: left !important;
   flex-wrap: wrap;
   margin-top: 1.5%;
+  margin-left: 2%;
   gap: 3.1%; /* Adjusted gap for two containers per row */
   width: 48%; /* Adjusted width for two containers per row */
 }
@@ -223,6 +224,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: 4%;
     gap: 2%; /* Adjusted gap for two containers per row */
     width: 96%; /* Adjusted width for two containers per row */
   }
