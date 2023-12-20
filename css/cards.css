@@ -1,5 +1,5 @@
 :root {
-  --card-height: 50vh;
+  --card-height: 40vh;
   --card-width: 25vh; /* Adjusted width for two containers per row */
 }
 body {
@@ -151,15 +151,12 @@ background: linear-gradient(0deg, rgba(11,109,233,1) 0%, rgba(50,137,253,1) 100%
   font-size: 1.8em;
   cursor: pointer;
   margin: 2%; /* Adjusted margin for two containers per row */
-  font-weight: bold;
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid white;
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
-  font-weight: bold;
   color: #5Ed5FF;
   text-shadow: 0 0 5px #3EB5FF;
-  text-transform: uppercase;
   flex-direction: column;
 }
 
