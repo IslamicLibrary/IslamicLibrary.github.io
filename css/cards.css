@@ -1,6 +1,6 @@
 :root {
-  --card-height: 25vh;
-  --card-width: 25vh; /* Adjusted width for two containers per row */
+  --card-height: 15vw;
+  --card-width: 15vw; /* Adjusted width for two containers per row */
 }
 body {
   display: flex;
@@ -142,7 +142,7 @@ background: linear-gradient(0deg, #5865F2 0%, #4855C2 100%);
   position: relative;
   border-radius: 6px;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.4em;
   cursor: pointer;
   margin: 4.2%;
   background-repeat: no-repeat;
@@ -190,17 +190,18 @@ a {
     font-size: 18px;
   }
   .card{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
-    color: white;
+    color: #5865F2;
     text-stroke: 0px black;
     -webkit-text-stroke: 0px black; /* For better browser compatibility */
     text-shadow: 0 0 0px purple;
     font-weight: bold;
+    color: #5865F2;
   }
   :root {
-    --card-height: 24vh;
-    --card-width: 35vh;
+    --card-height: 20vw;
+    --card-width: 20vw;
   }
   .custom-btn {
     width: 120px;
@@ -209,6 +210,7 @@ a {
     align-items: center;
     align-content: center;
     font-size: 24px;
+    margin-bottom: 3%;
     }
   .card-container {
     display: flex;
@@ -218,6 +220,7 @@ a {
     margin-left: 4%;
     gap: 2%; /* Adjusted gap for two containers per row */
     width: 96%; /* Adjusted width for two containers per row */
+    color: #5865F2;
   }
   .cardlibrary{
     font-weight: bold;

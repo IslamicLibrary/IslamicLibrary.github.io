@@ -192,7 +192,9 @@ iframe{
   text-align: center;
   font-size: 1.7em;
   cursor: pointer;
-  margin: 4.2%;
+  margin-right: 4.2%;
+  margin-top: 9%;
+  margin-bottom: 9%;
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid grey;
