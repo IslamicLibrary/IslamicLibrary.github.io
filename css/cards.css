@@ -190,7 +190,7 @@ a {
     font-size: 18px;
   }
   .card{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal;
     text-stroke: 0px black;
     -webkit-text-stroke: 0px black; /* For better browser compatibility */
