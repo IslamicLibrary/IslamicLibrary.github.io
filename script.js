@@ -591,8 +591,9 @@ function displayResults(results) {
         });
         searchResults.innerHTML = ''; // Clear previous results
         searchResults.appendChild(resultList);
-        searchResults.style.backgroundColor = '#fff';
-        searchResults.style.border = '2px solid #ccc';
+        searchResults.style.background = '#313339';
+        searchResults.style.border = '2px solid #313339';
+
     }
 }
 console.log("Mein JavaScript-Skript wurde geladen.");
