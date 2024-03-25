@@ -135,6 +135,7 @@ searchForm.addEventListener('submit', function(event) {
       { title: 'Textual', url: 'https://islamiclibrary.github.io/pages/preservation/textual.html' },
       { title: 'Why is Islam true?', url: 'https://islamiclibrary.github.io/pages/proof/true.html' },
       { title: 'Non muslim scholars on the Quran', url: 'https://islamiclibrary.github.io/pages/proof/non_muslims.html' },
+      { title: 'The minor signs of the Day of Judgement', url: 'https://islamiclibrary.github.io/pages/proof/minor_signs.html' },
       { title: 'Prophet Muhammad ﷺ', url: 'https://islamiclibrary.github.io/pages/proof/muhammad_saw.html' },
       { title: 'Prophecies of the prophet', url: 'https://islamiclibrary.github.io/pages/proof/prophecies.html' },
       { title: 'Linguistic miracles', url: 'https://islamiclibrary.github.io/pages/proof/linguistic_miracles.html' },
@@ -591,8 +592,8 @@ function displayResults(results) {
         });
         searchResults.innerHTML = ''; // Clear previous results
         searchResults.appendChild(resultList);
-        searchResults.style.background = '#313339';
-        searchResults.style.border = '2px solid #313339';
+        searchResults.style.background = '#8FAE93';
+        searchResults.style.border = '2px solid #8FAE93';
 
     }
 }

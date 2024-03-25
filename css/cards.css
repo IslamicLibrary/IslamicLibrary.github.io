@@ -9,8 +9,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  color: #fff;
-  background-color: #111319;
+  color: #8FAE93;
+  background-color: #F8FCF9;
 }
 header {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)); /* Gradient background */
@@ -64,7 +64,8 @@ footer {
 }
 /* 7 */
 .btn-7 {
-background: linear-gradient(0deg, #5865F2 0%, #4855C2 100%);
+background: linear-gradient(0deg, #8FAE93 0%, #8FAE93 100%);
+  box-shadow: 0 0 10px 0px #8FAE93;
   line-height: 42px;
   padding: 0;
   border: none;
@@ -81,7 +82,7 @@ background: linear-gradient(0deg, #5865F2 0%, #4855C2 100%);
   content: "";
   right: 0;
   bottom: 0;
-  background: #5865F2;
+  background: #7e928a;
   transition: all 0.3s ease;
 }
 .btn-7:before{
@@ -93,7 +94,7 @@ background: linear-gradient(0deg, #5865F2 0%, #4855C2 100%);
   height: 2px;
 }
 .btn-7:hover{
-  color: #5865F2;
+  color: #7e928a;
   background: transparent;
 }
 .btn-7:hover:before {
@@ -108,7 +109,7 @@ background: linear-gradient(0deg, #5865F2 0%, #4855C2 100%);
   content: "";
   left: 0;
   top: 0;
-  background: #5865F2;
+  background: #7e928a;
   transition: all 0.3s ease;
 }
 .btn-7 span:before {
@@ -135,7 +136,7 @@ background: linear-gradient(0deg, #5865F2 0%, #4855C2 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(235 237 244 / 15%);
+  background: #8FAE93;
   width: var(--card-width);
   height: var(--card-height);
   padding: 4px;
@@ -148,10 +149,10 @@ background: linear-gradient(0deg, #5865F2 0%, #4855C2 100%);
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid grey;
-  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px 5px #8FAE93;
+  color: #fff;
+  text-shadow: 0 0 3px #fff;
   font-weight: bold;
-  color: #5865F2;
-  text-shadow: 0 0 3px #000;
   text-transform: uppercase;
   flex-direction: column;
 }
@@ -182,7 +183,7 @@ a {
   width: 48%; /* Adjusted width for two containers per row */
 }
 .cardlibrary{
-  color: #4B91C5;
+  color: #ccffff;
   text-shadow: 0 0 5px blue;
 }
 @media screen and (max-width: 1200px) {
@@ -190,13 +191,15 @@ a {
     font-size: 18px;
   }
   .card{
-    font-size: 15px;
+    padding: 10px;
+    font-size: 20px;
     font-weight: normal;
     text-stroke: 0px black;
     -webkit-text-stroke: 0px black; /* For better browser compatibility */
     text-shadow: 0 0 0px purple;
     font-weight: bold;
     color: #fff;
+    text-shadow: 0 0 2px blue;
   }
   :root {
     --card-height: 20vw;
@@ -220,9 +223,11 @@ a {
     gap: 2%; /* Adjusted gap for two containers per row */
     width: 96%; /* Adjusted width for two containers per row */
     color: #5865F2;
+    text-shadow: 0 0 5px blue;
   }
   .cardlibrary{
     font-weight: bold;
-    color: #5Ed5FF;
+    color: #ccffff;
+    text-shadow: 0 0 5px blue;
   }
 }
